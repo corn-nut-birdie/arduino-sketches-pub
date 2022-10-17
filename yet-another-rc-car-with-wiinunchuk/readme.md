@@ -1,6 +1,6 @@
 Yet another RC car's sketches. 
 
-Both the sketches of the remote controller, and the RC car.
+Both the sketches of the remote controller, and the RC car, that utilizes the joystick on the Wii Nunchuk for driving and ..pivot steering.
 
 With 
 - NRF24L01 as the radio modules for transmitter and receiver;
