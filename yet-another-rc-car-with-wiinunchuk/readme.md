@@ -15,4 +15,7 @@ libraries:
 - NRFLite
 - NintendoExtensionCtrl
 
+software environment:
+- Arduino IDE
+
 The RC controller is on a ESP32 board; and the RC car is on a Raspberry PI Pico board, powered by 2 of 18650 Li batteries, through a regulator module, the Li batteries power the 4 motors at the same time.
