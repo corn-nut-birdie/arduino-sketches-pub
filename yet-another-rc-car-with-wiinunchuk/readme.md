@@ -3,7 +3,7 @@ Yet another RC car's sketches.
 With both the sketches of the remote controller and the RC car, that utilize a Wii Nunchuk for input of controlling.
 Tried pwm driven but dropped, because of the caused interference.
 
-__modules:
+__modules:__
 - 2 radio modules of NRF24L01 for RC communication;
 - a Wii Nunchuk as input of controlling on the RC controller side, which connected to a simple _wiichuk_ adapter shield that converts the plug of the Wii Nunchuk to 2.54mm gpio pins.
 - a small motor driver module.
@@ -15,10 +15,10 @@ __modules:
 - an ESP32 board for the controller side; an Raspberry Pi PICO board for the car side. They could be replaced with 2 Arduino UNO boards.
 - etc.
 
-__software environment:
+__software environment:__
 - Arduino IDE
 
-__arduino libraries:
+__arduino libraries:__
 - NRFLite
 - NintendoExtensionCtrl
 
