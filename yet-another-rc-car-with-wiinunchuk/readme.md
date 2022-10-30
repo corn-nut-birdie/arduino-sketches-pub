@@ -8,10 +8,11 @@ modules:
 - a Wii Nunchuk as input of controlling on the RC controller side, which connected to a simple _wiichuk_ adapter shield that converts the plug of the Wii Nunchuk to 2.54mm gpio pins.
 - a small motor driver module.
 - 4 small 3-6V TT 130 motors.
-- two 18650 batteries, with a battery capsule, for the small car side; two DC voltage regulators to output 3.3V and optional 3~6V for the Raspberry Pi Pico board and the driver module.
-- two AA batteries, with a battery capsule, for the controller side, that directly connect to the Vin pin of the ESP32.
-- the basic car suite.
-- an ESP32 board on the controller side; an Raspberry PICO board on the car side. But they can be replaced with 2 arduino uno boards.
+- two 18650 batteries, with a parallel battery holder, on the small car side; 
+- two DC voltage regulators to output 3.3V and optional 3~6V to the Raspberry Pi Pico board and the driver module.
+- two AA batteries, with a parallel battery holder, for the controller side, that directly connect to the Vin pin and a Gnd pin of the ESP32.
+- 4 wheel 2 layer small car chassis kits, that has 4 gear motors.
+- an ESP32 board for the controller side; an Raspberry Pi PICO board for the car side. They could be replaced with 2 Arduino UNO boards.
 - etc.
 
 software environment:
