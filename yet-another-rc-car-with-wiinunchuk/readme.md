@@ -1,6 +1,6 @@
 Yet another RC car's sketches.
 
-With both the sketches of the remote controller and the RC car, that utilize a Wii Nunchuk for input of controlling.
+The controller utilizes a Wii Nunchuk for user input.
 Tried pwm driven but dropped, because of the caused interference.
 
 __modules:__
@@ -12,7 +12,7 @@ __modules:__
 - two DC voltage regulators to output 3.3V and optional 3~6V to the Raspberry Pi Pico board and the driver module.
 - two AA batteries, with a parallel battery holder, for the controller side, that directly connect to the Vin pin and a Gnd pin of the ESP32.
 - 4 wheel 2 layer small car chassis kits, that has 4 gear motors.
-- an ESP32 board for the controller side; an Raspberry Pi PICO board for the car side. They could be replaced with 2 Arduino UNO boards.
+- an __ESP32__ board for the controller side; an __Raspberry Pi PICO__ board for the car side. They could be replaced with 2 __Arduino UNO__ boards.
 - etc.
 
 __software environment:__
