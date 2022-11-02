@@ -1,4 +1,4 @@
-# Yet another RC car's sketches.
+# Yet another RC car sketches.
 
 The controller utilizes a Wii Nunchuk for user input.
 Tried pwm driven but dropped, because of the caused interference.
