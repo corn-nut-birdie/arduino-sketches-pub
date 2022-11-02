@@ -11,7 +11,7 @@ __modules:__
 - two 18650 batteries, with a parallel battery holder, on the small car side; 
 - two DC voltage regulators to output 3.3V and optional 3~6V to the Raspberry Pi Pico board and the driver module.
 - two AA batteries, with a parallel battery holder, for the controller side, that directly connect to the Vin pin and a Gnd pin of the ESP32.
-- 4 wheel 2 layer small car chassis kits, that has 4 gear motors.
+- 4 wheel 2 layer small car chassis kits, that has 4 gear motors. Vcc - Vcc and Gnd - Gnd, soldered the 2 motors on the left side together, then the 2 on the right side.
 - an __ESP32__ board for the controller side; an __Raspberry Pi PICO__ board for the car side. They could be replaced with 2 __Arduino UNO__ boards.
 - etc.
 
