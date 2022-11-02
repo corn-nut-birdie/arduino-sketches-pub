@@ -6,7 +6,7 @@ Tried pwm driven but dropped, because of the caused interference.
 __modules:__
 - 2 radio modules of NRF24L01 for RC communication;
 - a Wii Nunchuk as input of controlling on the RC controller side, which connected to a simple _wiichuk_ adapter shield that converts the plug of the Wii Nunchuk to 2.54mm gpio pins.
-- a small motor driver module.
+- a small motor driver module, _Mini L298N_.
 - 4 small 3-6V TT 130 motors.
 - two 18650 batteries, with a parallel battery holder, on the small car side; 
 - two DC voltage regulators to output 3.3V and optional 3~6V to the Raspberry Pi Pico board and the driver module.
